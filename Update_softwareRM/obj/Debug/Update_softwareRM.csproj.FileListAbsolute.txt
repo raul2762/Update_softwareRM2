@@ -1,0 +1,10 @@
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\bin\Debug\Update_softwareRM.exe.config
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\bin\Debug\Update_softwareRM.exe
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\bin\Debug\Update_softwareRM.pdb
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.csprojResolveAssemblyReference.cache
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.Form1.resources
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.Properties.Resources.resources
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.csproj.GenerateResource.Cache
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.exe
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\obj\Debug\Update_softwareRM.pdb
+c:\users\raul2\documents\visual studio 2017\Projects\Update_softwareRM\Update_softwareRM\bin\Debug\Ionic.Zip.dll
