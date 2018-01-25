@@ -29,7 +29,19 @@ namespace Update_softwareRM
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            if (CheckInternetConnection())
+            {
+                dfj(true);
+                WebClient webClient = new WebClient();
+                webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
+                webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
+                webClient.DownloadFileAsync(new Uri("https://occd-ocoainc.org/update_program/Update.zip"), "Update_OCCD.zip");
+                sw.Start();
+            }
+            else
+            {
+                MessageBox.Show("No hay conexión a internet", "Error en descarga", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         // Descomprimir Zip
@@ -73,23 +85,6 @@ namespace Update_softwareRM
 
                 return false;
             }
-        }
-        private void metroButton1_Click(object sender, EventArgs e)
-        {
-            if (CheckInternetConnection())
-            {
-                dfj(true);
-                WebClient webClient = new WebClient();
-                webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
-                webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
-                webClient.DownloadFileAsync(new Uri("https://occd-ocoainc.org/update_program/Update.zip"), "Update_OCCD.zip");
-                sw.Start();
-            }
-            else
-            {
-                MessageBox.Show("No hay conexión a internet", "Error en descarga", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
         }
 
         private void ProgressChanged(object sender, DownloadProgressChangedEventArgs e)

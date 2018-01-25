@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.status = new MetroFramework.Controls.MetroLabel();
             this.status_speed = new MetroFramework.Controls.MetroLabel();
             this.status_porcent = new MetroFramework.Controls.MetroLabel();
@@ -44,16 +43,6 @@
             this.metroProgressBar1.Name = "metroProgressBar1";
             this.metroProgressBar1.Size = new System.Drawing.Size(269, 23);
             this.metroProgressBar1.TabIndex = 0;
-            // 
-            // metroButton1
-            // 
-            this.metroButton1.Location = new System.Drawing.Point(203, 72);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(101, 27);
-            this.metroButton1.TabIndex = 1;
-            this.metroButton1.Text = "Descargar";
-            this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // status
             // 
@@ -115,7 +104,6 @@
             this.Controls.Add(this.status_porcent);
             this.Controls.Add(this.status_speed);
             this.Controls.Add(this.status);
-            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroProgressBar1);
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -130,7 +118,6 @@
         #endregion
 
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
-        private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroLabel status;
         private MetroFramework.Controls.MetroLabel status_speed;
         private MetroFramework.Controls.MetroLabel status_porcent;
